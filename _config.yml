@@ -2,6 +2,9 @@
 title: Futurista Communications
 timezone: UTC
 collections:
+  approach:
+    title: Approach
+    output: true
   blog:
     title: Blog
     output: true
@@ -14,12 +17,9 @@ collections:
   posts:
     title: Posts
     output: true
-  approach:
-    title: Approach
-    output: true   
   team:
     title: Team
-    output: true   
+    output: true
   uploads:
     title: Uploads
     output: true
