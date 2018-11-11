@@ -96,17 +96,20 @@
     <div id=" {{id}}" class="blog p-{{id}}">
 
         <div class="blog-content p-{{id }}">
-          <div class="blog-content p-image">
+          <div class=" p-image">
             <img src="{{blog.image}}" alt="{{id}}" class="news-icon">
           </div>
         <div class="copy p-{{id}}" >
           <h4><a href="{{blog.url}}">{{ blog.title }}</a></h4>
         </div>
+
       </div>
     </div>
 
 
     {%endfor%}
+        <a href="/client-news" class="view-more">View More</a>
+
       </div>
     </div>
 
@@ -178,6 +181,11 @@
     </div>
 
     <img src="https://frosty-blackwell-129cc0.netlify.com/static/bg-city-9db434b2621cd41fb98778da6590e51f.png">
+
+    <div id="contact" class="section text-white two-col">
+     {% include contact.html %}
+
+    </div>
 
 
     <div id="footer" class="section text-white">

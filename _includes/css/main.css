@@ -131,7 +131,7 @@ header {
   text-align:center;
   padding:0;
   margin:0;
-     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
     display: grid;
 }
 
@@ -176,7 +176,7 @@ background-size: auto auto;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-min-height: 411px;
+min-height: 450px;
 margin-top:200px;
 }
 
@@ -207,6 +207,10 @@ min-height: 411px;
   width:100%;
   min-height:300px;
   padding:50px 0;
+}
+
+.blog-content {
+  border-top:1px solid;
 }
 
 .news-icon {
@@ -245,6 +249,100 @@ min-height: 411px;
   padding: 0 2em;
 
 }
+
+#contact {
+  padding-top: 2em;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 3em;
+  padding: 0 2em;
+}
+
+.two-col h2 {
+  color:white;
+  font-size: 1.8em;
+  padding: 0;
+}
+
+.two-col h3 {
+  font-size: 1.3em;
+  padding: 5px 0;
+}
+
+.two-col a {
+  color: #616c78;
+}
+
+.sign-up {
+      border-left: 1px solid #616c78;
+    padding-left: 3em;
+    padding-top: 3em;
+    margin-bottom: 3em;
+}
+
+.sign-up form {
+  margin-top: 1em;
+}
+
+.sign-up .submit-email {
+  background:  #616c78;
+  color: white;
+  width: 100px;
+  margin-top: 2em;
+}
+
+.sign-up .submit-email input:hover {
+  background:white;
+  color: black;
+  border: none;
+  border-radius: 0;
+}
+
+.sign-up .submit-email input {
+     padding: 7px;
+    font-weight: normal;
+    margin: 0;
+    text-shadow: none;
+}
+.sign-up input {
+  background:transparent;
+  padding:1em 0;
+    font-family: futura-pt, sans-serif;
+    font-size: 1em;
+    color:white;
+    margin:1em 0;
+        width: 100%;
+  outline:none;
+  border: none;
+  border-bottom: 1px solid #616c78;
+}
+
+.sign-up h2 {
+  font-size: 1.3em;
+  border-top: 1px solid;
+  width: 114px;
+}
+
+.contact-info {
+  margin:0 0 4em;
+}
+
+.social {
+    display: grid;
+  grid-template-columns: 24px 24px 24px;
+  grid-gap: 3em;
+  margin: 2em 0;
+}
+.address {
+  margin: 10px 0;
+  border-top: 1px solid;
+      max-width: 300px;
+    padding: 10px 0;
+}
+
 .three-col {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -252,6 +350,15 @@ min-height: 411px;
   padding: 0 2em;
 }
 
+.three-col .view-more {
+  grid-column: 2;
+  text-align: center;
+  background: #174981;
+  color: white;
+      padding: 12px 10px;
+    width: 132px;
+    justify-self: center;
+}
 .section:first-of-type {
     padding-top: 140px;
 }
@@ -260,6 +367,12 @@ min-height: 411px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 3em;
+}
+
+.services figure {
+  border-top: 2px solid #b2b2b2;
+  border-bottom: 2px solid #b2b2b2;
+  padding:1em 0;
 }
 
 .services h3 {
@@ -275,14 +388,19 @@ min-height: 411px;
   padding: 0;
 }
 
+#contact {
+  background: #2f3e4f;
+}
+
 #footer {
   padding: 8px 0;
   min-height:0;
   text-align:center;
-  background-color:#2e2e2e;
+  background-color:#fff;
+  color:black;
   background-image:none;
 }
-#footer .container p { font-size:13px; margin:0; }
+#footer .container p { font-size:9px; margin:10px 0; letter-spacing: 2px;  }
 
 .subtlecircle {
   text-align:center;
@@ -448,8 +566,17 @@ display: block;
 	.container h2 { font-size: 24px; }
 	.container h3 { font-size: 20px; }
 	.container h4 { font-size: 18px; }
-  .three-col, .team-content, header {
+  .three-col, .two-col, .team-content, header {
   display: block;
+  }
+
+  .contact-left {
+    padding:2em;
+  }
+
+  .sign-up {
+    border-left: none;
+    padding: 2em;
   }
 
   header nav ul {
