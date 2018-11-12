@@ -1,8 +1,8 @@
 ---
-title: 'Off the Chain With Tamika: Celebrating Black History Month'
+title: Vertically grown produce in high-tech shipping containers
 date: 2017-08-07 18:55:00 Z
 position: 7
-image: "/uploads/measure-s-minorities.jpg"
+image: "/uploads/EVELOZCITY.png"
 layout: default
 ---
 
