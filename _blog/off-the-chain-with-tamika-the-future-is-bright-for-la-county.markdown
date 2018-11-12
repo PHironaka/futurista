@@ -1,5 +1,5 @@
 ---
-title: 'Off the Chain with Tamika: The Future Is Bright for L.A. County'
+title: Vertically grown produce in high-tech shipping containers
 date: 2017-08-07 18:59:00 Z
 position: 10
 image: "/uploads/measure-s-minorities.jpg"
