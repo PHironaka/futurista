@@ -1,5 +1,5 @@
 ---
-title: Vertically grown produce in high-tech shipping containers
+title: California electric vehicle start-up
 date: 2017-08-07 18:55:00 Z
 position: 7
 image: "/uploads/EVELOZCITY.png"
