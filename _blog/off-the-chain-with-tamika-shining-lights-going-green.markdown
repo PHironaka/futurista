@@ -1,8 +1,8 @@
 ---
-title: 'Off the Chain With Tamika: Shining Lights, Going Green'
+title: Electric delivery trucks & energy services
 date: 2017-08-07 18:54:00 Z
 position: 6
-image: "/uploads/measure-s-minorities.jpg"
+image: "/uploads/CHANJE%20PHOTO.png"
 layout: default
 ---
 
