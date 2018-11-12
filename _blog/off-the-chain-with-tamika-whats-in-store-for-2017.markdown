@@ -1,8 +1,8 @@
 ---
-title: 'Off the Chain With Tamika: What''s in Store for 2017'
+title: Boutique recruiting & consulting firm
 date: 2017-08-07 18:55:00 Z
 position: 8
-image: "/uploads/entrepreneur.png"
+image: "/uploads/SiliconBeachTalent.png"
 layout: default
 ---
 

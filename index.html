@@ -36,6 +36,7 @@
         <li class="p-usage"><a href="#blog">Client News</a></li>
         <li class="p-usage"><a href="#team">Who We Are</a></li>
         <li class="p-usage"><a href="#approach">Approach</a></li>
+        <li class="p-usage"><a href="#contact">Contact</a></li>
       
         
       
@@ -61,20 +62,22 @@
     <h2>Work</h2>
 <div class="three-col">
 
-    {% for news in site.news  limit: 5 %}
+ 
 
-    {% capture id %}{{ news.id | remove:'/' | downcase }}{% endcapture %}
+    {% for blog in site.blog  limit: 5 %}
+
+    {% capture id %}{{ blog.id | remove:'/' | downcase }}{% endcapture %}
 
     <div id=" {{id}}" class="blog p-{{id}}">
 
-        <div class="news-content p-{{id }}">
-          <div class="news-content p-image">
-            <img src="{{news.image}}" alt="">
+        <div class="blog-content p-{{id }}">
+          <div class=" p-image">
+            <img src="{{blog.image}}" alt="{{id}}" >
           </div>
-        <div class="copy p-{{id}}">
-          <h5>{{blog.date |  date: '%B %d, %Y'}}</h5>
-          <h4><a href="{{news.link}}" target="_blank">{{ news.title }}</a></h4>
+        <div class="copy p-{{id}}" >
+          <h4>{{ blog.title }}</h4>
         </div>
+
       </div>
     </div>
 
@@ -89,25 +92,26 @@
     <h2>Client News</h2>
 <div class="three-col">
 
-    {% for blog in site.blog  limit: 3 %}
+      {% for news in site.news  limit: 3 %}
 
-    {% capture id %}{{ blog.id | remove:'/' | downcase }}{% endcapture %}
+    {% capture id %}{{ news.id | remove:'/' | downcase }}{% endcapture %}
 
     <div id=" {{id}}" class="blog p-{{id}}">
 
-        <div class="blog-content p-{{id }}">
+        <div class="news-content p-{{id }}">
           <div class=" p-image">
-            <img src="{{blog.image}}" alt="{{id}}" class="news-icon">
+            <img src="{{news.image}}" alt="{{id }}" class="news-icon">
           </div>
-        <div class="copy p-{{id}}" >
-          <h4><a href="{{blog.url}}">{{ blog.title }}</a></h4>
+        <div class="copy p-{{id}}">
+          <h5>{{blog.date |  date: '%B %d, %Y'}}</h5>
+          <h4><a href="{{news.link}}" target="_blank">{{ news.title }}</a></h4>
         </div>
-
       </div>
     </div>
 
 
     {%endfor%}
+
         <a href="/client-news" class="view-more">View More</a>
 
       </div>
