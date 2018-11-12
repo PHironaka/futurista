@@ -220,6 +220,7 @@ min-height: 411px;
 
 .p-image {
   margin:10px 0;
+  max-width: 174px;
 }
 
 .section h2 {
