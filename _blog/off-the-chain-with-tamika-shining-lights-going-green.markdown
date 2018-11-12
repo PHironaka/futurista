@@ -2,7 +2,7 @@
 title: 'Off the Chain With Tamika: Shining Lights, Going Green'
 date: 2017-08-07 18:54:00 Z
 position: 6
-image: "/uploads/entrepreneur.png"
+image: "/uploads/measure-s-minorities.jpg"
 layout: default
 ---
 
