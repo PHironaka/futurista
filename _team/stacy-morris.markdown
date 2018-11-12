@@ -2,7 +2,7 @@
 title: Stacy Morris
 date: 2017-07-05 20:03:00 Z
 position: 8
-image: "/uploads/measure-s-minorities.jpg"
+image: "/uploads/stacy.png"
 source: LA Weekly
 link: http://www.laweekly.com/news/battle-over-development-covets-the-hearts-and-minds-of-las-minorities-7992660
 ---
