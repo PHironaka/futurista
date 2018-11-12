@@ -1,9 +1,9 @@
 ---
-title: Battle Over Development Covets the Hearts and Minds of L.A.'s
+title: The Innovative Ways These Companies Are Managing Employee Stress
 date: 2017-07-05 20:03:00 Z
 position: 8
 image: "/uploads/entrepreneur.png"
 source: LA Weekly
-link: http://www.laweekly.com/news/battle-over-development-covets-the-hearts-and-minds-of-las-minorities-7992660
+link: https://www.fastcompany.com/40564709/the-innovative-ways-these-companies-are-managing-employee-stress
 ---
 
